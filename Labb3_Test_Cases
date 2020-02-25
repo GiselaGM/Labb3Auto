@@ -1,0 +1,27 @@
+Test cases
+
+Test 1: create_user_test (Use Case Testing)
+Given that the user information is corrected input
+When the user clicks “create”
+That the user is automatically login
+And it is showed “You are signed in as ‘first_name’” on the page
+
+Test 2: login_test (Decision Table Testing,State Transition Testing)
+Given that the right email and password is input
+When the user click “log in”
+That the user is login
+And it is showed “You are signed in as ‘first_name’” on the page
+
+Test 3: login_fail_test (Decision Table Testing,State Transition Testing)
+Given that the wrong email or password is input
+When the user click “log in”
+That the user is not login
+And it is showed “Wrong e-mail or password” on the page
+
+Test 4: boking_car_test(Boundary Value Analysis,Decision Table Testing)
+
+Test 5: cancel_booking_test (Use Case Testing)
+
+Test 6: logout_test (Use Case Testing)
+
+update
